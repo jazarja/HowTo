@@ -29,7 +29,7 @@
             meteor build . --directory
             cd bundle
             cp -R ../.ebextensions .
-            cp programs/server/package.json
+            cp programs/server/package.json .
     
     2. Elastic Beanstalk
     

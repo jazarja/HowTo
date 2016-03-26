@@ -7,6 +7,8 @@
           - namespace: aws:elasticbeanstalk:container:nodejs
             option_name: NodeVersion
             value: 0.12.10
+        
+        Another node.js version will break fibers.js build.     
             
 2. Put meteor app into bitbucket/github
 

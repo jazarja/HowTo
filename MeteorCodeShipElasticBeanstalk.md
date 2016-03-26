@@ -3,10 +3,10 @@
 ## Meteor App Preparation
 1. Create node.config file in .ebextensions
 
-        option_settings:
-          - namespace: aws:elasticbeanstalk:container:nodejs
-            option_name: NodeVersion
-            value: 0.12.10
+                option_settings:
+                  - namespace: aws:elasticbeanstalk:container:nodejs
+                    option_name: NodeVersion
+                    value: 0.12.10
         
         Another node.js version will break fibers.js build.     
             
@@ -14,7 +14,7 @@
 
 ## Codeship Setup
 
-1. Codeship test settings
+1. Codeship setup command
 
         curl -o meteor_install_script.sh https://install.meteor.com/
         chmod +x meteor_install_script.sh
